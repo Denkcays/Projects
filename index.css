@@ -20,11 +20,6 @@ header, footer {
     font-size: 20px;
 }
 
-main, aside {
-    margin-top: 6%;
-    display:inline-block;
-}
-
 /*Header*/
 
 header {
@@ -116,6 +111,7 @@ main {
 /*Aside*/
 
 aside {
+    margin-top: 6%;
     opacity: 0.9;
     width: 15%;
     height: 50vh;
@@ -152,7 +148,6 @@ aside {
 
 footer {
     opacity: 0.9;
-    float: inline-end;
     margin-top: 1%;
     width: 60%;
     margin-left: 20%;
@@ -174,7 +169,6 @@ footer {
 
 .new {
     opacity: 0;
-
     animation: animation 0.7s ease forwards;
 }
 
@@ -191,14 +185,6 @@ footer {
     }
 
 }
-
-.foot{
-    opacity: 0;
-    transform: translateY(-50px);
-    transition: 0.7s ease;
-}
-
-.foot.show {
+footer.now.show {
     opacity: 0.9;
-    transform: translateY(0);
 }
